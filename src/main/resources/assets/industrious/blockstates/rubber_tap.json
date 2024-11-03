@@ -1,0 +1,34 @@
+{
+	"variants": {
+		"facing=east,dripping=false": {
+			"model": "industrious:block/rubber_tap",
+			"y": 90
+		},
+		"facing=east,dripping=true": {
+			"model": "industrious:block/rubber_tap_dripping",
+			"y": 90
+		},
+		"facing=north,dripping=false": {
+			"model": "industrious:block/rubber_tap"
+		},
+		"facing=north,dripping=true": {
+			"model": "industrious:block/rubber_tap_dripping"
+		},
+		"facing=south,dripping=false": {
+			"model": "industrious:block/rubber_tap",
+			"y": 180
+		},
+		"facing=south,dripping=true": {
+			"model": "industrious:block/rubber_tap_dripping",
+			"y": 180
+		},
+		"facing=west,dripping=false": {
+			"model": "industrious:block/rubber_tap",
+			"y": 270
+		},
+		"facing=west,dripping=true": {
+			"model": "industrious:block/rubber_tap_dripping",
+			"y": 270
+		}
+	}
+}

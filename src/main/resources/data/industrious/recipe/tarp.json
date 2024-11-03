@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "industrious:cotton"
+		},
+		"L": {
+			"item": "minecraft:leather"
+		}
+	},
+	"pattern": [
+		"#L",
+		"L#"
+	],
+	"result": {
+		"count": 4,
+		"id": "industrious:white_tarp"
+	}
+}

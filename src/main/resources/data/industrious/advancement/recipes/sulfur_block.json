@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sulfur": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:sulfur"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_sulfur"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:sulfur_block"
+		]
+	}
+}

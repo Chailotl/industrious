@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "industrious",
+	"version": "${version}",
+	"name": "${name}",
+	"description": "A mod all about adding friendly industrial resources like Rubber and Cotton, as well as fun blocks, tools and toys to add some flavor to your game!",
+	"authors": [
+		"Applebax",
+		"Chai"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/amys-industrious-mod/",
+		"sources": "https://github.com/chailotl/industrious",
+		"issues": "https://github.com/chailotl/industrious/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/industrious/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chailotl.industrious.Main"
+		],
+		"client": [
+			"com.chailotl.industrious.ClientMain"
+		]
+	},
+	"mixins": [
+		"industrious.mixins.json"
+	],
+	"accessWidener" : "industrious.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

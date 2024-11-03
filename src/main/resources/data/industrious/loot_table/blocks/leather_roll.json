@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "industrious:leather_roll"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "industrious:blocks/leather_roll"
+}

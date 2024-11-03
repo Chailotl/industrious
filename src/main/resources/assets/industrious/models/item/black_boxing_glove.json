@@ -1,0 +1,6 @@
+{
+	"parent": "industrious:item/boxing_glove",
+	"textures": {
+		"texture": "industrious:item/black_boxing_glove"
+	}
+}

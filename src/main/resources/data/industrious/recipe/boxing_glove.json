@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "industrious:cotton"
+		},
+		"L": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		}
+	},
+	"pattern": [
+		" L ",
+		"LVL",
+		" # "
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:red_boxing_glove"
+	}
+}

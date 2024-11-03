@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "industrious:raw_rubber"
+		},
+		"s": {
+			"item": "industrious:sulfur"
+		}
+	},
+	"pattern": [
+		" # ",
+		"#s#",
+		" # "
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:treated_rubber_block"
+	}
+}

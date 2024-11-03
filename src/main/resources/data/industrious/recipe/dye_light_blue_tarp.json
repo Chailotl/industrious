@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "tarps",
+	"ingredients": [
+		{
+			"tag": "industrious:tarps"
+		},
+		{
+			"item": "minecraft:light_blue_dye"
+		}
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:light_blue_tarp"
+	}
+}

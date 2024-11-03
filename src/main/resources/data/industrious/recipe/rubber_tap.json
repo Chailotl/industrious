@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "minecraft:iron_nugget"
+		}
+	},
+	"pattern": [
+		" #",
+		"##"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:rubber_tap"
+	}
+}

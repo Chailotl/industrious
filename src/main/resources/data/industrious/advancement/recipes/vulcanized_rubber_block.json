@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_vulcanized_rubber": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:vulcanized_rubber"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_vulcanized_rubber"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:vulcanized_rubber_block"
+		]
+	}
+}

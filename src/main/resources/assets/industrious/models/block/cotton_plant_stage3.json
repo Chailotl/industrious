@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "industrious:block/cotton_plant_stage3"
+	}
+}

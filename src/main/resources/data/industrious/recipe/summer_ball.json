@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"y": {
+			"item": "minecraft:yellow_dye"
+		},
+		"r": {
+			"item": "minecraft:red_dye"
+		}
+	},
+	"pattern": [
+		"y#r",
+		"#V#",
+		"r#y"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:summer_ball"
+	}
+}

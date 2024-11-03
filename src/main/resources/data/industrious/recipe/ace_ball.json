@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"g": {
+			"item": "minecraft:light_gray_dye"
+		},
+		"w": {
+			"item": "minecraft:white_dye"
+		},
+		"b": {
+			"item": "minecraft:black_dye"
+		},
+		"p": {
+			"item": "minecraft:purple_dye"
+		}
+	},
+	"pattern": [
+		"g#w",
+		"#V#",
+		"b#p"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:ace_ball"
+	}
+}

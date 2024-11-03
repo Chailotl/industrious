@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_raw_rubber_block": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:raw_rubber_block"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_raw_rubber_block"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:raw_rubber"
+		]
+	}
+}

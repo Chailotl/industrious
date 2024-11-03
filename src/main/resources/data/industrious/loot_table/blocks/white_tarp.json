@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "industrious:white_tarp"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "industrious:blocks/white_tarp"
+}

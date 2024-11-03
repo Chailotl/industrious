@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"w": {
+			"item": "minecraft:white_dye"
+		},
+		"l": {
+			"item": "minecraft:lime_dye"
+		}
+	},
+	"pattern": [
+		"w#l",
+		"#V#",
+		"l#w"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:spring_ball"
+	}
+}

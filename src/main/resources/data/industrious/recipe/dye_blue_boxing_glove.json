@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "tarps",
+	"ingredients": [
+		{
+			"tag": "industrious:boxing_gloves"
+		},
+		{
+			"item": "minecraft:blue_dye"
+		}
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:blue_boxing_glove"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_leather_roll": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:leather_roll"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_leather_roll"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:leather"
+		]
+	}
+}

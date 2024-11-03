@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"b": {
+			"item": "minecraft:blue_dye"
+		}
+	},
+	"pattern": [
+		"b#b",
+		"#V#",
+		"b#b"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:blue_ball"
+	}
+}

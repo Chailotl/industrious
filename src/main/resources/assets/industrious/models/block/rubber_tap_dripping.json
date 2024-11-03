@@ -1,0 +1,6 @@
+{
+	"parent": "industrious:block/rubber_tap_base",
+	"textures": {
+		"texture": "industrious:block/rubber_tap_dripping"
+	}
+}

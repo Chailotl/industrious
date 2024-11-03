@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"group": "sulfur",
+	"ingredient": {
+		"item": "industrious:deepslate_sulfur_ore"
+	},
+	"result": {
+		"id": "industrious:sulfur"
+	}
+}

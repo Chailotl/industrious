@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "industrious:treated_rubber_block"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "industrious:blocks/treated_rubber_block"
+}

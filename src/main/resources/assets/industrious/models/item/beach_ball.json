@@ -1,0 +1,6 @@
+{
+	"parent": "industrious:item/ball",
+	"textures": {
+		"texture": "industrious:item/beach_ball"
+	}
+}

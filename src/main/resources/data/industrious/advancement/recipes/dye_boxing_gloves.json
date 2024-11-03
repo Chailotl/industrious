@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_boxing_gloves": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#industrious:boxing_gloves"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_boxing_gloves"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:dye_white_boxing_glove",
+			"industrious:dye_light_gray_boxing_glove",
+			"industrious:dye_gray_boxing_glove",
+			"industrious:dye_black_boxing_glove",
+			"industrious:dye_brown_boxing_glove",
+			"industrious:dye_red_boxing_glove",
+			"industrious:dye_orange_boxing_glove",
+			"industrious:dye_yellow_boxing_glove",
+			"industrious:dye_lime_boxing_glove",
+			"industrious:dye_green_boxing_glove",
+			"industrious:dye_cyan_boxing_glove",
+			"industrious:dye_light_blue_boxing_glove",
+			"industrious:dye_blue_boxing_glove",
+			"industrious:dye_purple_boxing_glove",
+			"industrious:dye_magenta_boxing_glove",
+			"industrious:dye_pink_boxing_glove"
+		]
+	}
+}

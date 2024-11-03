@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"w": {
+			"item": "minecraft:white_dye"
+		},
+		"r": {
+			"item": "minecraft:red_dye"
+		},
+		"c": {
+			"item": "minecraft:cyan_dye"
+		}
+	},
+	"pattern": [
+		"w#r",
+		"#V#",
+		"c#w"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:beach_ball"
+	}
+}

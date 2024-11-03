@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_tarps": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#industrious:tarps"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_tarps"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:dye_white_tarp",
+			"industrious:dye_light_gray_tarp",
+			"industrious:dye_gray_tarp",
+			"industrious:dye_black_tarp",
+			"industrious:dye_brown_tarp",
+			"industrious:dye_red_tarp",
+			"industrious:dye_orange_tarp",
+			"industrious:dye_yellow_tarp",
+			"industrious:dye_lime_tarp",
+			"industrious:dye_green_tarp",
+			"industrious:dye_cyan_tarp",
+			"industrious:dye_light_blue_tarp",
+			"industrious:dye_blue_tarp",
+			"industrious:dye_purple_tarp",
+			"industrious:dye_magenta_tarp",
+			"industrious:dye_pink_tarp"
+		]
+	}
+}

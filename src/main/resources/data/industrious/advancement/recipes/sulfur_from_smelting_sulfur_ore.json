@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sulfur_ore": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:sulfur_ore"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_sulfur_ore"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:sulfur_from_smelting_sulfur_ore",
+			"industrious:sulfur_from_smelting_deepslate_sulfur_ore",
+			"industrious:sulfur_from_smelting_nether_sulfur_ore",
+			"industrious:sulfur_from_blasting_sulfur_ore",
+			"industrious:sulfur_from_blasting_deepslate_sulfur_ore",
+			"industrious:sulfur_from_blasting_nether_sulfur_ore"
+		]
+	}
+}

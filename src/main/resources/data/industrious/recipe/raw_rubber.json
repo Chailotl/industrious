@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "industrious:raw_rubber_block"
+		}
+	],
+	"result": {
+		"count": 4,
+		"id": "industrious:raw_rubber"
+	}
+}

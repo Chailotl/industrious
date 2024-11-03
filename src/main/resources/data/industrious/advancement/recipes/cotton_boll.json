@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_cotton": {
+			"conditions": {
+				"items": [
+					{
+						"items": "industrious:cotton"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_cotton"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"industrious:cotton_boll"
+		]
+	}
+}

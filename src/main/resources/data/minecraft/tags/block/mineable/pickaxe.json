@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"industrious:sulfur_ore",
+		"industrious:deepslate_sulfur_ore",
+		"industrious:nether_sulfur_ore",
+		"industrious:sulfur_block"
+	]
+}

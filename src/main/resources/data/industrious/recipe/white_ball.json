@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "balls",
+	"key": {
+		"#": {
+			"item": "minecraft:leather"
+		},
+		"V": {
+			"item": "industrious:vulcanized_rubber"
+		},
+		"w": {
+			"item": "minecraft:white_dye"
+		}
+	},
+	"pattern": [
+		"w#w",
+		"#V#",
+		"w#w"
+	],
+	"result": {
+		"count": 1,
+		"id": "industrious:white_ball"
+	}
+}
