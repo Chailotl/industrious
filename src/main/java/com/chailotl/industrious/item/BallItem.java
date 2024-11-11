@@ -1,18 +1,22 @@
 package com.chailotl.industrious.item;
 
 import com.chailotl.industrious.entity.BallEntity;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.block.dispenser.ItemDispenserBehavior;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.*;
 import net.minecraft.world.World;
+import net.minecraft.world.event.GameEvent;
 
 public class BallItem extends Item
 {
@@ -77,5 +81,50 @@ public class BallItem extends Item
 		user.incrementStat(Stats.USED.getOrCreateStat(this));
 		stack.decrementUnlessCreative(1, user);
 		return TypedActionResult.success(user.getStackInHand(hand), world.isClient());
+	}
+
+	@Override
+	public ActionResult useOnBlock(ItemUsageContext context)
+	{
+		PlayerEntity user = context.getPlayer();
+
+		if (user.isSneaking())
+		{
+			World world = context.getWorld();
+			ItemStack stack = context.getStack();
+			BlockPos blockPos = context.getBlockPos();
+			Direction direction = context.getSide();
+			BlockState blockState = world.getBlockState(blockPos);
+
+			if (!blockState.getCollisionShape(world, blockPos).isEmpty())
+			{
+				blockPos = blockPos.offset(direction);
+			}
+
+			world.playSound(
+				null,
+				user.getX(),
+				user.getY(),
+				user.getZ(),
+				SoundEvents.BLOCK_WOOL_PLACE,
+				SoundCategory.NEUTRAL,
+				0.5F,
+				0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F)
+			);
+
+			if (!world.isClient)
+			{
+				BallEntity ballEntity = new BallEntity(world, blockPos.getX() + 0.5, blockPos.getY(), blockPos.getZ() + 0.5);
+				ballEntity.setStack(stack);
+				world.spawnEntity(ballEntity);
+			}
+
+			user.incrementStat(Stats.USED.getOrCreateStat(this));
+			stack.decrementUnlessCreative(1, user);
+			world.emitGameEvent(context.getPlayer(), GameEvent.ENTITY_PLACE, blockPos);
+			return ActionResult.CONSUME;
+		}
+
+		return ActionResult.PASS;
 	}
 }
