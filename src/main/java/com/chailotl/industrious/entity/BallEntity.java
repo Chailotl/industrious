@@ -365,11 +365,11 @@ public class BallEntity extends Entity
 	@Override
 	public boolean damage(DamageSource source, float amount)
 	{
-		if (isInvulnerableTo(source) || getWorld().isClient)
+		if (getWorld().isClient)
 		{
 			return false;
 		}
-		else if (source.getAttacker() instanceof PlayerEntity player && player.isSneaking())
+		else if (source.getAttacker() instanceof PlayerEntity player && player.isSneaking() && !isInvulnerableTo(source))
 		{
 			kill();
 			if (getWorld().getGameRules().getBoolean(GameRules.DO_ENTITY_DROPS))
